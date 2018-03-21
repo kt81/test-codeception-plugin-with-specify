@@ -1,0 +1,40 @@
+{
+    "name": "kt81/codeception-plugin-with-specify",
+    "description": "test codeception specify plugin",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "^7.1.3"
+    },
+    "require-dev": {
+        "codeception/codeception": "^2.4",
+        "codeception/specify": "^1.1"
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-4": {
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+            ]
+        }
+    },
+    "scripts": {
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
